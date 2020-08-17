@@ -93,10 +93,6 @@ def main():
 
     # Video Input
     cap = cv2.VideoCapture()
-    #cap.open("rtsp://172.26.19.202:554/h264")
-    #cap.open(opt.video_path)
-    #cap.open("G:\\0000003.mp4")
-    #cap.open("I:\\(15min)100-120dB.mp4")
     cap.open("./test_001.avi")
 
     print("Pass2")
